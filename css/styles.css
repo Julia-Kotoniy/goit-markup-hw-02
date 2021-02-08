@@ -36,13 +36,6 @@ header > a {
   line-height: 1.2;
 }
 
-header a:hover,
-header a:focus,
-footer a:hover,
-footer a:focus {
-  color: var(--accent-color);
-}
-
 .logo {
   color: var(--accent-color);
 }
@@ -54,6 +47,11 @@ footer a:focus {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+}
+
+.nav-text:hover,
+.nav-text:focus {
+  color: var(--accent-color);
 }
 
 .current {
@@ -184,7 +182,6 @@ footer > a {
   line-height: 1.2;
 }
 
-
 .address {
   color: var(--white-text);
   font-style: normal;
@@ -217,13 +214,6 @@ footer > a {
 .button:active {
   background-color: var(--accent-color);
   color: var(--white-text);
-}
-
-.project-title:hover,
-.project-title:focus,
-.project-text:hover,
-.project-text:focus {
-  color: var(--accent-color);
 }
 
 .project-title {
